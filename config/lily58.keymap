@@ -26,10 +26,10 @@
 
 		lower_layer {
 			bindings = <
-          KC_TILD &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &kp PAGE_UP 
+          CARET &trans &trans &trans &trans &trans &trans &trans &trans &trans &trans &kp PAGE_UP 
 		  &kp GRAVE &kp F2 &kp UP &kp F4 &kp F5 &kp F6 &kp F7 &kp F8 &kp F9 &kp F10 &kp F11 &kp PAGE_DOWN 
-		  &kp GRAVE &kp LEFT &kp DOWN &kp RIGHT KC_DLR KC_PERC KC_CIRC KC_AMPR KC_ASTR KC_LPRN KC_RPRN KC_TILD 
-		  &trans &trans &trans &trans &trans &trans &kp EQUAL KC_PLUS &kp F20 KC_UNDS KC_PLUS KC_LCBR KC_RCBR KC_PIPE 
+		  &kp GRAVE &kp LEFT &kp DOWN &kp RIGHT &trans &trans &trans &trans &trans &trans &trans &trans 
+		  &trans &trans &trans &trans &trans &trans &kp EQUAL &trans &kp F20 &trans &trans &trans &trans &trans 
 		  &trans &trans &trans &trans &trans &trans &trans &trans
 			>;
 
@@ -41,8 +41,8 @@
           &trans &kp F1 &kp F2 &kp F3 &kp F4 &kp F5 &kp F6 &kp F7 &kp F8 &kp F9 &kp F10 &kp F11 &kp GRAVE 
 		  &kp N1 &kp UP &kp N3 &kp N4 &kp N5 &kp N6 &kp N7 &kp N8 &kp N9 &kp N0 &kp F12 &trans 
 		  &kp LEFT &kp DOWN &kp RIGHT &trans &trans &kp F20 &trans &trans &kp N2 &trans &kp F20 
-		  &trans &trans &trans &trans &trans &trans &kp EQUAL KC_PLUS KC_PLUS &kp MINUS &kp EQUAL &kp LEFT_BRACKET
-		  &kp RIGHT_BRACKET &kp BACKSLASH &trans &trans &trans &trans &trans &trans &trans &trans
+		  &trans &trans &trans &trans &trans &trans &kp EQUAL KP_PLUS KP_PLUS &kp MINUS &kp EQUAL &kp LBKT
+		  &kp RBKT &kp BSLH &trans &trans &trans &trans &trans &trans &trans &trans
 			>;
 
 			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
