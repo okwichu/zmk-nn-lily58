@@ -20,6 +20,9 @@
 		  &kp LCTL &kp Z &kp X &kp C &kp V &kp B &kp LEFT &kp RIGHT &kp N &kp M &kp COMMA &kp DOT &kp SLASH &kp MINUS 
 		  &kp LBKT &kp LGUI &mo 1 &kp ENTER &kp RET &mo 2 &kp RALT &kp RBKT			
 			>;
+			
+			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
+			
 		};
 
 		lower_layer {
@@ -30,6 +33,8 @@
 		  &trans &trans &trans &trans &trans &trans &kp EQUAL &kp PLUS &kp F20 &trans &trans &trans &trans &trans 
 		  &trans &trans &trans &trans &trans &trans &trans &trans
 			>;
+			
+			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
 		};
 
 		raise_layer {
@@ -40,6 +45,8 @@
 		  &trans &trans &trans &trans &trans &trans &kp EQUAL &kp PLUS &kp PLUS &kp MINUS &kp EQUAL &kp LBKT
 		  &kp RBKT &kp BSLH &trans &trans &trans &trans &trans &trans &trans &trans
 			>;
+			
+			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
 		};
 	};
 };
